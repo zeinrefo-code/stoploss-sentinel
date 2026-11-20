@@ -1,0 +1,19 @@
+# Foundry build artifacts
+out/
+cache/
+broadcast/
+
+# Local reference clones used during development (not part of the project)
+/deps/
+
+# Secrets — never commit keys, wallets, or env files
+.env
+.env.*
+*.key
+*keypair*.json
+*wallet*.txt
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
